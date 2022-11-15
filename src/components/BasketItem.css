@@ -1,0 +1,37 @@
+.basketItem {
+    display: flex;
+    margin: 20px 0;
+}
+
+.basketItem_img {
+    object-fit: contain;
+    width: 200px;
+    height: 175px;
+}
+
+.basketItem_info {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    line-height: 25px;
+}
+
+.basketItem_info>button {
+    background: #f0c14b;
+    border: 1px solid;   
+    border-color: #a88734 #9c7e31;
+    margin-top: 10px;
+    color: #111;
+    width: 200px;
+    height: 25px;
+}
+
+.basketItem_rating {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.basketItem_title {
+    font-size: 18px;
+    font-weight: 700;
+}
